@@ -1,0 +1,143 @@
+const styles = {
+  container: {
+    padding: "20px",
+    minHeight: "100vh",
+    backgroundColor: "#F0F0F0",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  header: {
+    color: "white",
+    display: "flex",
+    alignItems: "center",
+    textAlign: "center",
+    padding: "10px 20px",
+    borderRadius: "8px",
+    marginBottom: "20px",
+    justifyContent: "space-between",
+  },
+  userInfo: {
+    display: "flex",
+    alignItems: "center",
+  },
+  logoutButton: {
+    color: "white",
+    border: "none",
+    cursor: "pointer",
+    borderRadius: "5px",
+    padding: "10px 20px",
+    backgroundColor: "#FF6347",
+    transition: "background-color 0.3s ease",
+  },
+  main: {
+    padding: "20px",
+    borderRadius: "8px",
+    backgroundColor: "#E6E6FA",
+    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
+  },
+  filters: {
+    display: "flex",
+    flexWrap: "wrap",
+    marginBottom: "20px",
+    justifyContent: "space-between",
+  },
+  filterItem: {
+    margin: "5px",
+    display: "flex",
+    flexDirection: "column",
+    flex: "1 1 calc(25% - 10px)",
+  },
+  label: {
+    fontWeight: "bold",
+    marginBottom: "5px",
+  },
+  input: {
+    padding: "10px",
+    borderRadius: "5px",
+    border: "1px solid #ccc",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  button: {
+    color: "white",
+    border: "none",
+    cursor: "pointer",
+    padding: "10px 20px",
+    textAlign: "center",
+    borderRadius: "5px",
+    alignSelf: "flex-end",
+    backgroundColor: "#6A5ACD",
+    transition: "background-color 0.3s ease",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  results: {
+    marginTop: "20px",
+  },
+  table: {
+    width: "100%",
+    marginTop: "10px",
+    borderCollapse: "collapse",
+  },
+  tableHeader: {
+    color: "#6A5ACD",
+    fontWeight: "bold",
+    backgroundColor: "#6A5ACD",
+  },
+  tableRow: {
+    backgroundColor: "#f2f2f2",
+    "&:nth-child(even)": {
+      backgroundColor: "#e6e6e6",
+    },
+  },
+  tableCell: {
+    color: "white",
+    padding: "12px",
+    textAlign: "center",
+    border: "1px solid #ccc",
+  },
+  tableCellValues: {
+    color: "black",
+    padding: "10px",
+    textAlign: "center",
+    border: "1px solid #ccc",
+  },
+  actionsButton: {
+    color: "white",
+    border: "none",
+    cursor: "pointer",
+    borderRadius: "5px",
+    padding: "5px 10px",
+    backgroundColor: "#6A5ACD",
+    transition: "background-color 0.3s ease",
+    fontFamily: "Montserrat, sans-serif",
+  },
+  actionsButtonHover: {
+    backgroundColor: "#5A4DCD",
+  },
+  successMessage: {
+    color: "#28a745",
+    marginBottom: "20px",
+  },
+  inputContainer: {
+    display: "flex",
+    justifyContent: "center",
+    marginBottom: "20px",
+  },
+  inputField: {
+    padding: "10px",
+    fontSize: "16px",
+    borderRadius: "5px",
+    border: "1px solid #ccc",
+    width: "300px",
+    marginRight: "10px",
+  },
+  submitButton: {
+    padding: "10px 20px",
+    backgroundColor: "#6A5ACD",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    transition: "background-color 0.3s ease",
+  },
+};
+
+export default styles;
